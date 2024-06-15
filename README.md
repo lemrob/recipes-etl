@@ -6,7 +6,7 @@
 
 The script reads a JSON file containing recipes data, identifies recipes with "Chilies" (including likely misspellings) in their ingredients, adds a "difficulty" field based on preparation and cooking times, cleans the data and saves the filtered recipes into a CSV file.
 
-In order to retrieve the CSV file, you need to run the main.py file! This will then output the CSV into the 'data' folder within this repository.
+To retrieve the CSV file, you need to run the main.py file! This will then output the CSV into the 'data' folder within this repository.
 
 
 ## Features
@@ -27,7 +27,26 @@ In order to retrieve the CSV file, you need to run the main.py file! This will t
 
 ## Installation
 
-### In  line with the assignment, this repository has been sent over as email attachments
+### Method 1: From GitHub Repository
+
+1. **Clone the repository:**
+
+   Open your terminal and run the following command to clone the repository:
+
+   ```sh
+   git clone https://github.com/lemrob/recipes-etl.git
+
+2. Install Dependencies:
+   Ensure you have Python and 'pip' installed on your system. Then run the following in your terminal:
+
+   ```sh
+   pip install -r requirements.txt
+
+
+
+### Method 2: From email attachments
+
+#### In  line with the assignment, this repository has also been sent over as a compressed folder in an email attachment
 
 1. **Download the project files:**
 
@@ -41,12 +60,13 @@ In order to retrieve the CSV file, you need to run the main.py file! This will t
 
    Open your terminal or command prompt and navigate to the directory where you extracted the files.
 
-4. **Install required packages:**
+4. **Install dependencies:**
 
-   Make sure you have `pip` installed. Then run the following in your terminal:
+   Make sure you have Python and 'pip' installed. Then run the following in your terminal:
 
    ```sh
    pip install -r requirements.txt
+
 
 
 ## Running the Script
